@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Franzcod/action-api@
+        uses: Franzcod/action-api@1.0.1
         with:
           who-to-greet: "Prueba de action"
       # Use the output from the `hello` step
