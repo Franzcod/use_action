@@ -1,6 +1,6 @@
 name: Api Execution
 on:
-  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   hello_world_job:
